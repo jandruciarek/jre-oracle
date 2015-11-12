@@ -3,7 +3,7 @@ FROM debian:latest
 ENV JAVA_VERSION=8 \
     JAVA_UPDATE=66 \
     JAVA_BUILD=17 \
-    JAVA_MODE=jre \
+    JAVA_MODE=jdk \
     JAVA_HOME=/opt/java
 
 RUN apt-get update && \
